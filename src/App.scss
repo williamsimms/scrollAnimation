@@ -18,6 +18,15 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
-  overflow: hidden;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background-color: #e4e6eb;
+}
+
+h1 {
+  margin-bottom: 2rem;
+  font-size: 4rem;
+  font-weight: 200;
+  padding-top: 1rem;
+  text-align: center;
 }

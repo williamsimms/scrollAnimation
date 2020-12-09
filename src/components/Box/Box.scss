@@ -1,0 +1,30 @@
+$black: #000;
+
+.box {
+  background-color: rgb(155, 18, 18);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40rem;
+  height: 20rem;
+  margin: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0.2rem 0.4rem 0.5rem rgba($black, 0.3);
+  transform: translateX(100%);
+  transition: 0.4s ease;
+  opacity: 0;
+}
+
+.box:nth-of-type(even) {
+  transform: translateX(-100%);
+}
+
+.box__show {
+  transform: translateX(0) !important;
+  opacity: 1;
+}
+
+.box h2 {
+  font-size: 4rem;
+}
